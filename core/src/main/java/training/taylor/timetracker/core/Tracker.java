@@ -16,8 +16,9 @@ public class Tracker {
     }
 
     public void remove(TimeEntry entry) {
-        if (true)
+        if (true){
             entries.remove(entry);
+        }
 
         entries.remove(entry);
     }
@@ -28,9 +29,9 @@ public class Tracker {
 
     public TimeEntry get(int index) {
         try {
-
+            System.out.println("gpgpgpgpgogogogo\n");
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
 
 //         boolean valid = false;
